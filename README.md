@@ -15,7 +15,7 @@ npm install @xingangshi/github_npm-hello_world
 IF you get the following error, please use the mehod-3 to install the package.
 
 ```shell
-$ npm install @xingangshi/github_npm-hello_world@1.0.0
+$ npm install @xingangshi/github_npm-hello_world@1.0.1
 npm ERR! code E404
 npm ERR! 404 Not Found - GET https://registry.npmjs.org/@xingangshi%2fgithub_npm-hello_world - Not found
 npm ERR! 404
@@ -32,7 +32,7 @@ npm ERR!     C:\Users\S1635\AppData\Roaming\npm-cache\_logs\2020-05-09T06_08_20_
 2.
 ```js
 "dependencies": {
-    "@xingangshi/github_npm-hello_world": "1.0.0"
+    "@xingangshi/github_npm-hello_world": "1.0.1"
   }
 ```
 3.
@@ -56,4 +56,9 @@ undefined
 
 2. Js code
 
-Just like file of [`test_pakage.js`](/test_pakage.js).
+Just like file of [`test_pakage.js`](https://github.com/xingangshi/github_npm-hello_world/blob/master/test_pakage.js):
+
+```js
+const hello_world_pkg = require("@xingangshi/github_npm-hello_world");
+hello_world_pkg.hello_world();
+```
