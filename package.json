@@ -1,0 +1,22 @@
+{
+  "name": "@xingangshi/github_npm-hello_world",
+  "version": "1.0.0",
+  "description": "Just a simple demo for nmp package by using github npm registry. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingangshi/github_npm-hello_world.git"
+  },
+  "author": "GeekPanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingangshi/github_npm-hello_world/issues"
+  },
+  "homepage": "https://github.com/xingangshi/github_npm-hello_world#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
